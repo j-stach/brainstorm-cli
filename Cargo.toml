@@ -1,11 +1,11 @@
 
 [package]
-name = "brainstorm"
+name = "brainstorm-cli"
 description = "Neuroscience for Engineers"
 authors = ["j-stach"]
 version = "0.0.0"
 edition = "2024"
-repository = "https://github.com/j-stach/brainstorm"
+repository = "https://github.com/j-stach/brainstorm-cli"
 license = "GPL-3.0"
 readme = "README.md"
 
@@ -14,7 +14,8 @@ clap = "4.5.36"
 clap-repl = "0.3.2"
 anyhow = "1.0.98" 
 bincode = "1.3.3"
-animusd-lib = { path = "/home/jordan/projs/cajal-framework/animusd-lib" }
-cajal-cx = { path = "/home/jordan/projs/cajal-framework/cajal-cx" }
+
+brainstorm-rt-protocol = { path = "/home/jordan/projs/brainstorm/rt-protocol" }
+brainstorm-cx = { path = "/home/jordan/projs/brainstorm/cx" }
 
 
